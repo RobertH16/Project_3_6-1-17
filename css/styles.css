@@ -1,0 +1,303 @@
+@media(min-width: 320px){
+	*{   
+		background-color:#fff;
+		box-sizing: border-box;
+		text-decoration: none;
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		vertical-align: middle;
+		text-align: left;
+		position: relative;
+		color: #828282;
+		font-family: 'Merriweather', serif;
+	}
+	.header{
+		height:70px;
+		background-color:#30333d;
+	}
+	h2{
+		font-weight: 700;
+		background-color:#30333d;
+		font-size: 1.3em;
+		color: #fff;
+		text-align: center;
+		top:20px;
+	}	
+	p{	
+		font-size: .90em;
+		top: 10px;
+		text-align: center;
+	}
+	.signup-body{
+		top: 30px;
+	}
+	.newsletter-body{
+		height: 100px;
+	}
+	hr{	
+		left:10px;
+		width: 95%;
+		top:0px;
+		border: 1px solid #30333d;
+	}
+	.hr_1{
+		 width: 95%;
+		 top:-3px;
+		 border: 2px solid #30333d;
+	}
+	.newsletter-hr{
+		border: 2px solid #30333d;
+		position: absolute;
+		top: 671px;
+		
+	}
+	 h3{
+		 text-align: center;
+		 color:#30333d;
+	 }
+	 .form-top-body{
+		top: 30px; 
+	 }
+	fieldset{
+		border-style: none;
+	}
+	label.contact-inputcf{
+		right:10px;
+		 background-color: #AEC9F5;
+	
+	}
+	label.contact-inputc{
+		left:5px;
+		
+	}
+	.newsletter-fieldset{
+		top:15px;
+	}
+	p.newsletter{
+		height: 70px;
+		text-align: left;
+		top:30px;
+		line-height:1.4em;
+	}
+	.checkbox{
+		top:-15px;
+	}
+	.checkbox2{
+		top:-30px;
+	}
+	input, select{
+		border:none;
+		height: 50px;
+		border-radius: 4px 4px 4px 4px;
+	}
+	input#contact-input, select,
+	input#contact-input2-1,
+	input#contact-input3,
+	input#contact-input4,
+	input#contact-input5
+	{
+		
+		top: 7px;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #EDEDED;
+	}
+	input#contact-input2-1,
+	input#contact-input3,
+	input#contact-input4,
+	input#contact-input5{
+		left: 0px;
+	}
+	input#contact-input2-1::placeholder{
+		text-indent:205px;
+	}
+	input#contact-input-zip{
+		width: 145px;
+		height: 50px;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #EDEDED;
+		top:10px;
+		
+	}
+	input::placeholder{
+		text-indent: 205px;
+	}
+	select{
+		width: 290px;
+	}
+	 .contact, legend.newsletter{
+		 font-weight: 700;
+		 color:#30333d;
+		 font-size: 1.15em;
+	 }
+	 input#contact-input-zip:focus ,
+	 select:focus,
+	 #contact-input:focus,
+	 textarea#textarea:focus{
+		 border: 2px solid #04212B;
+		 background-color: #E3E3E3;
+		 transition: all 1s ease-in-out;
+	 }
+	 .name-room{
+		 top: 15px;
+		 height: 635px;
+	 }
+	 div.newsletter-format{
+		 top: -20px;
+		 height: 25px;
+	 }
+	div.radio-button{
+		top: -30px;
+		 height: 45px;
+	}
+	div.radio-button2{
+		top: -40px;
+	}
+	div.other-topics{
+		font-size:.8425em;
+		top:-30px;
+		width:100%;
+	}
+	legend.newsletter{
+		top:15px;
+		
+	}
+	 div.textarea{
+		width:290px;
+		height: 90px;
+		top:-15px;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #EDEDED;
+	}
+	textarea{
+		border-radius: 5px 5px 5px 5px;
+		background-color: #EDEDED;
+		resize: none;
+		border: none;
+	}
+	div.button{
+		top:40px;
+		height: 100px;
+	}
+	#submit-button{
+		top:20px;
+		height: 65px;
+		width:285px;
+		text-align:center;
+		background-color: #2dc6bf;
+		color: #fff;
+		border-radius: 7px 7px 7px 7px;
+		font-size:1.25em;
+		left: 10px;
+	}
+	div.copyright{
+		top:50px;
+		text-align:center;
+		height: 200px;
+		font-family: 'Lobster Two', cursive;
+		font-size:1.125em;
+	}
+@media(min-width: 768px){
+	*{
+		background-color:#fff;
+		box-sizing: border-box;
+		text-decoration: none;
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		vertical-align: middle;
+		text-align: left;
+		position: relative;
+		color: #828282;
+	}
+	hr, .hr_1{
+		width: 76%;
+		left: 85px;
+	}
+	hr.newsletter-hr{
+		position:absolute;
+		top:575px;
+	}
+	.signup-body{
+		top:70px;
+	}
+	h3{
+		font-size: 1.45em;
+		font-weight:700;
+	}
+	label.contact-inputc{
+		font-size: .90em;
+	}
+	.form-top-body{
+		top:50px;
+		margin:0 75px 0 75px;
+	}
+	.name-room{
+		top: 0px;
+	}
+	input#contact-input{
+		position: relative;
+		left: 145px;
+		width: 75%;
+	}
+	input#contact-input2-1,
+	input#contact-input3,
+	input#contact-input4,
+	input#contact-input5{
+		left: 145px;
+	}
+	br{
+		 content: "A";
+		 display: block ;
+		 margin-bottom: .125em ;
+	}
+	input#contact-input, select,
+	input#contact-input2-1,
+	input#contact-input3,
+	input#contact-input4,
+	input#contact-input5
+	{		
+		width: 435px;
+	}
+	input#contact-input::placeholder,
+	input#contact-input2-1::placeholder{
+		text-indent: 350px;
+	}
+	.contact-inputc{
+		position: relative;
+		top: 47px;
+		top:40px;
+	}
+	input#contact-input-zip{
+		width: 25%;
+		height: 50px;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #EDEDED;
+		left: 145px;
+	}
+	select{
+		width: 75%;
+		position: relative;
+		left: 145px;
+		text-indent:15px;
+	}
+	.newsletter-hr{
+		position: absolute;
+		width: 575px;
+		left:10px;
+	}
+	.news-body{
+		top: -75px;
+	}
+	div.textarea, textarea#textarea{
+		width: 100%;
+		border: none;
+	}
+	 #submit-button{
+		top:15px;
+		width:96%;
+	}
+	div.copyright{
+		top: -10px;
+	}
+}
