@@ -76,6 +76,8 @@
 			left:5px;
 			font-size:.95em;
 			color:#A3A3A3;
+			
+			
 		}
 		.newsletter-fieldset{
 			top:15px;
@@ -113,7 +115,7 @@
 		input#contact-input4,
 		input#contact-input5
 		{
-			
+			width: calc(100% - 5px);
 			top: 7px;
 			border-radius: 5px 5px 5px 5px;
 			background-color: #EDEDED;
@@ -123,15 +125,24 @@
 		input#contact-input4,
 		input#contact-input5{
 			left: 0px;
+			width: calc(100% - 5px);
 			
+		}
+		#radio-select,
+		.radio-select1,
+		#radio-select2,
+		#radio-input2,
+		#radio-input3{
+			margin-right: 8px;
 		}
 		input#contact-input2-1::placeholder{
 			text-indent:205px;
 			font-size:.75em;
 			color:#A3A3A3;
 		}
+		
 		input#contact-input-zip{
-			width: 145px;
+			width: calc(50% - 2.5px);
 			height: 50px;
 			border-radius: 5px 5px 5px 5px;
 			background-color: #EDEDED;
@@ -145,7 +156,7 @@
 			color:#A3A3A3;
 		}
 		select{
-			width: 291px;
+			width: calc(100% - 5px);
 			font-size:.85em;
 			color:#A3A3A3;
 		}
@@ -226,6 +237,7 @@
 			font-family: 'Merriweather', serif;
 			font-size:.90em;
 			color:#A3A3A3;
+	
 			
 		}
 	}
@@ -270,13 +282,14 @@
 		input#contact-input{
 			position: relative;
 			left: 145px;
-			width: 75%;
+			
 		}
 		input#contact-input2-1,
 		input#contact-input3,
 		input#contact-input4,
 		input#contact-input5{
 			left: 145px;
+			
 		}
 		br{
 			 content: "A";
@@ -289,7 +302,7 @@
 		input#contact-input4,
 		input#contact-input5
 		{		
-			width: 435px;
+			width: calc(100% - 130px);
 		}
 		input#contact-input::placeholder,
 		input#contact-input2-1::placeholder{
@@ -299,6 +312,8 @@
 			position: relative;
 			top: 47px;
 			top:40px;
+			/*width: calc(100% - 100px);*/
+			width: 250px;
 		}
 		input#contact-input-zip{
 			width: 25%;
@@ -306,9 +321,10 @@
 			border-radius: 5px 5px 5px 5px;
 			background-color: #EDEDED;
 			left: 145px;
+			width: calc(50% - 65px);
 		}
 		select{
-			width: 75%;
+			width: calc(100% - 130px);
 			position: relative;
 			left: 145px;
 			text-indent:15px;
@@ -353,7 +369,13 @@
 		div.radio-button{
 			top:-70px;
 		}
-		
+		#radio-select,
+		.radio-select1,
+		#radio-select2,
+		#radio-input2,
+		#radio-input3{
+			margin-right: 8px;
+		}
 		 div.radio-button2{
 			 top:-80px;
 		 }
